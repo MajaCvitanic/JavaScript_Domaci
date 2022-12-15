@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+<h2>Zamislio sam broj između 1 i 100... Da li možeš pogoditi koji?</h2>
+<input type="number" pattern="[0-100]" id="broj">
+<button id="uneseniBroj" onclick="posalji(event)">Pošalji</button>
+
+<p id="rezultat"></p>
+
+<h4 >Broj pokušaja: <span id="brojPokušaja"></span></h4>
+
+</div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
